@@ -47,7 +47,7 @@ body {
 	padding-bottom: 30px;
 }
 
-.form-container input, button {
+.form-container input, button, textarea {
 	width: 40%;
 	height: 80px;
 	background-color: #3d3a3a;
