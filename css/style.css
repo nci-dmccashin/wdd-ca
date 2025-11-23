@@ -1,3 +1,35 @@
 body {
 
 }
+
+.nav-menu-link {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-menu-link:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+.navbar-links {
+	position: absolute;
+	right: 20px;
+}
+
+.navbar-links * {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-links a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-links a:hover {
+	color: gray;
+	text-decoration: underline;
+}
