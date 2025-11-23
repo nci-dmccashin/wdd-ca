@@ -1,5 +1,6 @@
 body {
-
+	/* Add additional height to webpage to make it scroll a little past the content at the bottom of the page */
+	padding-bottom: 100px;
 }
 
 .nav-menu-link {
@@ -32,4 +33,26 @@ body {
 .navbar-links a:hover {
 	color: gray;
 	text-decoration: underline;
+}
+
+.title {
+	position: relative;
+	top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.title-images {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form-container input, button {
+	width: 40%;
+	height: 80px;
+	background-color: #3d3a3a;
+	padding: 5px;
+	margin-top: 10px;
+	/* Make answer box round */
+	border-radius: 3px;
 }
