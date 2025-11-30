@@ -48,19 +48,35 @@
 	<!-- TODO: Add actual questions + form submission handling -->
 	<form class="text-center form-container">
 		<label>
-			Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+			How many plastic bottles did you use in the last week?
 		</label> <br />
-		<input type="text" placeholder="Answer" required />
+		<input id="question1" class="form-input" type="text" placeholder="Answer" required />
 		<br />
 		<label>
-			Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+			What size bottle do you most comonlly use?
 		</label> <br />
-		<input type="text" placeholder="Answer" required />
-		<br />
+		<div>
+			<label>500 ML</label>
+			<input type="radio" name="Question 2" value="500" required />
+			<br />
+			<label>750 ML</label>
+			<input type="radio" name="Question 2" value="750" required />
+			<br />
+			<label>1 L</label>
+			<input type="radio" name="Question 2" value="1000" required />
+			<br />
+			<label>2 L</label>
+			<input type="radio" name="Question 2" value="2000" required />
+			<br />
+		</div>
 		<label>
-			Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+			Do you return your bottles if they're eligable for the depsoit return scheme?
 		</label> <br />
-		<input type="text" placeholder="Answer" required />
+		<label>Yes</label>
+		<input type="radio" name="Question 3" value="true" required />
+		<br />
+		<label>No</label>
+		<input type="radio" name="Question 3" value="false" required />
 		<br />
 		<button class="text-light" type="submit">
 			Calculate my enviromental impact now!
