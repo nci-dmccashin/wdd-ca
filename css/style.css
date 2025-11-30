@@ -58,11 +58,16 @@ nav {
 .form-container .form-input, button, textarea {
 	width: 40%;
 	height: 80px;
-	background-color: #3d3a3a;
+	background-color: #42A5F5;
 	padding: 5px;
 	margin-top: 10px;
 	/* Make answer box round */
 	border-radius: 3px;
+}
+
+/* Change colour of the placeholder text inside text fields */
+.form-input::placeholder {
+	color: white; 
 }
 
 .homepage-cards {
