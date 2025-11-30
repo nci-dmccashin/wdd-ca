@@ -70,28 +70,6 @@ nav {
 	color: white; 
 }
 
-.homepage-cards {
-	padding-top: 40px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.homepage-cards .card {
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-/* Set every second card to float left to create cascading effect */
-/* TODO: Figure out why this doesn't work properly */
-/* .homepage-cards .card:nth-child(1n) {
-	float: left;
-} */
-
-/* Set every second card to float right to create cascading effect */
-/* .homepage-cards .card:nth-child(2n) {
-	float: right;
-} */
-
 .homepage-button {
 	/* Center button */
 	display: flex;
