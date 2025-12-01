@@ -19,7 +19,6 @@ nav {
 
 .nav-menu-link:hover {
 	color: #42A5F5;
-	text-decoration: underline;
 }
 
 .navbar-links {
@@ -40,7 +39,6 @@ nav {
 
 .navbar-links a:hover {
 	color: #42A5F5;
-	text-decoration: underline;
 }
 
 .title {
