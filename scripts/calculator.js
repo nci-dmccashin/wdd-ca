@@ -42,4 +42,14 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 		if (doesUserReturnBottles == "false") {
 			costOfDeposit = numberOfBottles * costOfDepositPerBottle;
 		}
+		// Remove calculator and show user results
+		// Use template literal to format HTML
+		let costOfDepositInEuro = costOfDeposit / 100;
+		alert(costOfDeposit);
+		alert(costOfDepositInEuro);
+		document.getElementById("calculator-form").innerHTML = 
+		`
+			<h1>You used ${plasticUsed}g of plastic in the last week</h1>
+			<h3>You wasted &euro;${costOfDepositInEuro} by not returning your bottles</h3>
+		`;
 });
