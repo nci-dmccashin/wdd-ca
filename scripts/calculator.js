@@ -23,5 +23,8 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 				break;
 		}
 		let plasticUsed = plasticUsedPerBottle * numberOfBottles;
-		alert(plasticUsed);
+		// If user returns bottles, plastic waste is reduced by 30%
+		if (doesUserReturnBottles == "true") {
+			plasticUsed = plasticUsed / 100 * 70;
+		}
 });
