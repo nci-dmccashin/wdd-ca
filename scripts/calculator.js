@@ -27,4 +27,19 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 		if (doesUserReturnBottles == "true") {
 			plasticUsed = plasticUsed / 100 * 70;
 		}
+		// Calculate cost of deposit
+		let costOfDepositPerBottle = 0;
+		let costOfDeposit = 0;
+		switch (sizeOfBottles) {
+			case "500":
+				costOfDepositPerBottle = 15;
+				break;
+			default:
+				costOfDepositPerBottle = 25;
+				break;
+		}
+		// Deposit only applies if user does not return bottles, so leave at 0 if they do
+		if (doesUserReturnBottles == "false") {
+			costOfDeposit = numberOfBottles * costOfDepositPerBottle;
+		}
 });
