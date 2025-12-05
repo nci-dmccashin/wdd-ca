@@ -66,7 +66,7 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 		`;
 		calculatorFormElement.innerHTML += 
 		`
-			<h3>The production of these bottles emiited ${carbonImpact}g of Co2 into our enviroment</h3>
+			<h3>The production of these bottles emitted ${carbonImpact}g of Co2 into our environment</h3>
 		`;
 		if (doesUserReturnBottles == "false") {
 			calculatorFormElement.innerHTML += 
@@ -84,6 +84,6 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 		calculatorFormElement.innerHTML += 
 		`
 			<button class="btn btn-success" onclick="window.location.reload();">Restart</button><br/>
-			<button class="btn btn-primary mt-4" onclick="window.open('#');">How can I reduce my enviromental impact?</button>
+			<button class="btn btn-primary mt-4" onclick="window.open('#');">How can I reduce my environmental impact?</button>
 		`;
 });
