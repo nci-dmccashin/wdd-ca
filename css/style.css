@@ -76,3 +76,7 @@ nav {
 	width: 300px;
 	margin: auto;
 }
+
+.card {
+	min-width: 200px;
+}
