@@ -21,14 +21,11 @@ nav {
 	color: #42A5F5;
 }
 
-.navbar-links {
-	position: absolute;
-	right: 20px;
-}
-
 .navbar-links * {
 	padding-left: 10px;
 	padding-right: 10px;
+	/* Don't break halfway through word on small screens */
+	white-space: nowrap;
 }
 
 .navbar-links a {
@@ -56,6 +53,7 @@ nav {
 
 .form-container .form-input, button, textarea {
 	width: 40%;
+	min-width: 400px;
 	height: 80px;
 	background-color: #42A5F5;
 	padding: 5px;
