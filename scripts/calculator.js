@@ -84,6 +84,6 @@ document.getElementById("calculator-form").addEventListener("submit", (e) => {
 		calculatorFormElement.innerHTML += 
 		`
 			<button class="btn btn-success" onclick="window.location.reload();">Restart</button><br/>
-			<button class="btn btn-primary mt-4" onclick="window.open('#');">How can I reduce my environmental impact?</button>
+			<button class="btn btn-primary mt-4" onclick="window.open('information.html');">How can I reduce my environmental impact?</button>
 		`;
 });
