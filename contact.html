@@ -33,26 +33,26 @@
 	<h1 class="title">
 		Contact Us
 	</h1>
-	<div class="mx-2">
-		<p class="pt-4">
+	<div class="mx-2 text-center">
+		<h3 class="pt-4">
 			You can can get in touch with us via the form below:
-		</p>
+		</h3>
 		<!-- Contact us form -->
-		<form class="form-container">
+		<form id="contact-form" class="form-container">
 			<label>
 				Your name:
 			</label> <br />
-			<input type="text" placeholder="Name" required />
+			<input id="form-input-name" class="form-input" type="text" placeholder="Name" required />
 			<br />
 			<label>
 				Your email:
 			</label> <br />
-			<input type="text" placeholder="Email" required />
+			<input id="form-input-email" class="form-input" type="text" placeholder="Email" required />
 			<br />
 			<label>
 				Your message:
 			</label> <br />
-			<textarea placeholder="Message" required>
+			<textarea id="form-input-message" placeholder="Message" required>
 			</textarea>
 			<br />
 			<button class="text-light" type="submit">
@@ -60,5 +60,6 @@
 			</button>
 		</form>
 	</div>
+	<script src="scripts/contact.js"></script>
 </body>
 </html>
